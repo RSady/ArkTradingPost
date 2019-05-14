@@ -8,20 +8,38 @@
 
 /* Begin PBXBuildFile section */
 		31CE5BBF228B4E72008E6FAB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31CE5BBE228B4E72008E6FAB /* AppDelegate.swift */; };
-		31CE5BC1228B4E72008E6FAB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31CE5BC0228B4E72008E6FAB /* ViewController.swift */; };
 		31CE5BC4228B4E72008E6FAB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31CE5BC2228B4E72008E6FAB /* Main.storyboard */; };
 		31CE5BC6228B4E82008E6FAB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31CE5BC5228B4E82008E6FAB /* Assets.xcassets */; };
 		31CE5BC9228B4E82008E6FAB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31CE5BC7228B4E82008E6FAB /* LaunchScreen.storyboard */; };
+		31CE5BD2228B4EB5008E6FAB /* API_Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31CE5BD0228B4EB5008E6FAB /* API_Errors.swift */; };
+		31CE5BD3228B4EB5008E6FAB /* API_Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31CE5BD1228B4EB5008E6FAB /* API_Client.swift */; };
+		31CE5BD9228B4EE4008E6FAB /* Filter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31CE5BD4228B4EE3008E6FAB /* Filter.swift */; };
+		31CE5BDA228B4EE4008E6FAB /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31CE5BD5228B4EE3008E6FAB /* Enums.swift */; };
+		31CE5BDB228B4EE4008E6FAB /* Comment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31CE5BD6228B4EE3008E6FAB /* Comment.swift */; };
+		31CE5BDC228B4EE4008E6FAB /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31CE5BD7228B4EE3008E6FAB /* Post.swift */; };
+		31CE5BDD228B4EE4008E6FAB /* Reply.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31CE5BD8228B4EE4008E6FAB /* Reply.swift */; };
+		31CE5BDF228B4F0D008E6FAB /* NonEditableTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31CE5BDE228B4F0D008E6FAB /* NonEditableTextField.swift */; };
+		31CE5BE1228B4F24008E6FAB /* UIViewController Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31CE5BE0228B4F24008E6FAB /* UIViewController Extensions.swift */; };
+		31CE5BE3228B5075008E6FAB /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31CE5BE2228B5074008E6FAB /* PostViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		31CE5BBB228B4E72008E6FAB /* ATP_RSady.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ATP_RSady.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		31CE5BBE228B4E72008E6FAB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		31CE5BC0228B4E72008E6FAB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		31CE5BC3228B4E72008E6FAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		31CE5BC5228B4E82008E6FAB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		31CE5BC8228B4E82008E6FAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		31CE5BCA228B4E82008E6FAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		31CE5BD0228B4EB5008E6FAB /* API_Errors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = API_Errors.swift; sourceTree = "<group>"; };
+		31CE5BD1228B4EB5008E6FAB /* API_Client.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = API_Client.swift; sourceTree = "<group>"; };
+		31CE5BD4228B4EE3008E6FAB /* Filter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Filter.swift; sourceTree = "<group>"; };
+		31CE5BD5228B4EE3008E6FAB /* Enums.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
+		31CE5BD6228B4EE3008E6FAB /* Comment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Comment.swift; sourceTree = "<group>"; };
+		31CE5BD7228B4EE3008E6FAB /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		31CE5BD8228B4EE4008E6FAB /* Reply.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reply.swift; sourceTree = "<group>"; };
+		31CE5BDE228B4F0D008E6FAB /* NonEditableTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NonEditableTextField.swift; sourceTree = "<group>"; };
+		31CE5BE0228B4F24008E6FAB /* UIViewController Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController Extensions.swift"; sourceTree = "<group>"; };
+		31CE5BE2228B5074008E6FAB /* PostViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,8 +73,17 @@
 			isa = PBXGroup;
 			children = (
 				31CE5BBE228B4E72008E6FAB /* AppDelegate.swift */,
-				31CE5BC0228B4E72008E6FAB /* ViewController.swift */,
 				31CE5BC2228B4E72008E6FAB /* Main.storyboard */,
+				31CE5BD1228B4EB5008E6FAB /* API_Client.swift */,
+				31CE5BD0228B4EB5008E6FAB /* API_Errors.swift */,
+				31CE5BD6228B4EE3008E6FAB /* Comment.swift */,
+				31CE5BD5228B4EE3008E6FAB /* Enums.swift */,
+				31CE5BD4228B4EE3008E6FAB /* Filter.swift */,
+				31CE5BD7228B4EE3008E6FAB /* Post.swift */,
+				31CE5BD8228B4EE4008E6FAB /* Reply.swift */,
+				31CE5BDE228B4F0D008E6FAB /* NonEditableTextField.swift */,
+				31CE5BE2228B5074008E6FAB /* PostViewController.swift */,
+				31CE5BE0228B4F24008E6FAB /* UIViewController Extensions.swift */,
 				31CE5BC5228B4E82008E6FAB /* Assets.xcassets */,
 				31CE5BC7228B4E82008E6FAB /* LaunchScreen.storyboard */,
 				31CE5BCA228B4E82008E6FAB /* Info.plist */,
@@ -135,8 +162,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				31CE5BC1228B4E72008E6FAB /* ViewController.swift in Sources */,
 				31CE5BBF228B4E72008E6FAB /* AppDelegate.swift in Sources */,
+				31CE5BDB228B4EE4008E6FAB /* Comment.swift in Sources */,
+				31CE5BDD228B4EE4008E6FAB /* Reply.swift in Sources */,
+				31CE5BDF228B4F0D008E6FAB /* NonEditableTextField.swift in Sources */,
+				31CE5BD9228B4EE4008E6FAB /* Filter.swift in Sources */,
+				31CE5BDA228B4EE4008E6FAB /* Enums.swift in Sources */,
+				31CE5BD3228B4EB5008E6FAB /* API_Client.swift in Sources */,
+				31CE5BE1228B4F24008E6FAB /* UIViewController Extensions.swift in Sources */,
+				31CE5BDC228B4EE4008E6FAB /* Post.swift in Sources */,
+				31CE5BD2228B4EB5008E6FAB /* API_Errors.swift in Sources */,
+				31CE5BE3228B5075008E6FAB /* PostViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
